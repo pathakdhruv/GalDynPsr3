@@ -13,7 +13,7 @@ from err_excesspl_Reid import err_Reid14
 
 
 def cald(bdeg, sigb, ldeg, sigl, dkpc, sigd, Har): 
-      global excpl,exz          
+      global excpl,exz, errpl, errz          
       b = bdeg*par.degtorad
       l = ldeg*par.degtorad
       zkpc = dkpc*math.sin(b)
@@ -48,12 +48,15 @@ def cald(bdeg, sigb, ldeg, sigl, dkpc, sigd, Har):
             print ("Vp/Vs= ", Vprat(Rpkpcfunc(dkpc,b,l,par.Rskpc)))
             excpl = adrc
             exz = azbchfl      
+            errpl = errReid 
+            errz = errlo   
          else:
             print ("Excess_parallel_Reid2014, Excess_z_HF04fit = ", adrc,"+/-",errReid, ", ", azbchfh,"+/-",errhi)
             print ("Vp/Vs= ", Vprat(Rpkpcfunc(dkpc,b,l,par.Rskpc)))
             excpl = adrc
             exz = azbchfh
-
+            errpl = errReid 
+            errz = errhi
       return None;
 
 
@@ -62,3 +65,9 @@ def Expld():
 
 def Exzd():
    return exz;
+
+def Errpld():
+   return errpl;
+
+def Errzd():
+   return errz;
