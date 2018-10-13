@@ -7,11 +7,11 @@ from galpy.potential import vcirc
 import parameters as par
 from Excesspl import Rpkpcfunc
 
-#MWPotential2014.append(KeplerPotential(amp=4*10**6./bovy_conversion.mass_in_msol(Vs,Rskpc)))
+
 
 def VpratioMWBH(Rpkpc):
-    MWPotential2014.append(KeplerPotential(amp=4*10**6./bovy_conversion.mass_in_msol(par.Vs,par.Rskpc)))
-    a = vcirc(MWPotential2014,Rpkpc/par.Rskpc)
+    MWPotential2014wBH= [MWPotential2014,KeplerPotential(amp=4*10**6./bovy_conversion.mass_in_msol(par.Vs,par.Rskpc))]
+    a = vcirc(MWPotential2014wBH,Rpkpc/par.Rskpc)
     return a;
 
 def MWBHpl(bdeg,ldeg,dkpc):

@@ -3,26 +3,26 @@ import math
 import numpy as np
 import parameters as par
 from Excesspl import Rpkpcfunc
-from calA import cala, Expla, Exza, Errpla, Errza
-from calB import calb, Explb, Exzb, Errplb, Errzb
-from calC import calc, Explc, Exzc, Errplc, Errzc
-from calD import cald, Expld, Exzd, Errpld, Errzd
-from calEa import calea, Explea, Exzea
-from calEb import caleb, Expleb, Exzeb
-from calFa import calfa, Explfa, Exzfa
-from calFb import calfb, Explfb, Exzfb
-from calGa import calga, Explga, Exzga
-from calGb import calgb, Explgb, Exzgb
-from calHa import calha, Explha, Exzha
-from calHb import calhb, Explhb, Exzhb
-from calIa import calia, Explia, Exzia
-from calIb import calib, Explib, Exzib
-from calJa import calja, Explja, Exzja
-from calJb import caljb, Expljb, Exzjb
-from calKa import calka, Explka, Exzka
-from calKb import calkb, Explkb, Exzkb
-from calLa import calla, Explla, Exzla
-from calLb import callb, Expllb, Exzlb
+from modelA import cala, Expla, Exza, Errpla, Errza
+from modelB import calb, Explb, Exzb, Errplb, Errzb
+from modelC import calc, Explc, Exzc, Errplc, Errzc
+from modelD import cald, Expld, Exzd, Errpld, Errzd
+from modelEa import calea, Explea, Exzea
+from modelEb import caleb, Expleb, Exzeb
+from modelFa import calfa, Explfa, Exzfa
+from modelFb import calfb, Explfb, Exzfb
+from modelGa import calga, Explga, Exzga
+from modelGb import calgb, Explgb, Exzgb
+from modelHa import calha, Explha, Exzha
+from modelHb import calhb, Explhb, Exzhb
+from modelIa import calia, Explia, Exzia
+from modelIb import calib, Explib, Exzib
+from modelJa import calja, Explja, Exzja
+from modelJb import caljb, Expljb, Exzjb
+from modelKa import calka, Explka, Exzka
+from modelKb import calkb, Explkb, Exzkb
+from modelLa import calla, Explla, Exzla
+from modelLb import callb, Expllb, Exzlb
 
 from Shk import shk, Exshk, errShk
 from err_Rp import errRp
