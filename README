@@ -1,7 +1,7 @@
 
-You need to run GalDynPsr3.py as 
+You need to run GalDynPsrScript.py as 
 
-> python3 GalDynPsr3.py
+> python3 GalDynPsrScript.py
 
 1) It will ask whether the pulsar in any globular cluster or not. If yes, then reads parameters from Harris catalogue (GC_harris.txt). 
 
