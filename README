@@ -49,7 +49,7 @@ Model-Lb: ‘Rforce’ in galpy (with BH) and ‘zforce’ in galpy (with BH)
 
 7) Please see example.png for the screenshot of an example run of the code.
 
-8) parameters.py file contains values of different constants, as well as the values of different parameters as:
+8) parameters.in file contains values of different parameters as:
    Vs, sigVs (error in Vs), Rskpc (Rs in kpc units), sigRs (error in Rskpc), b0reid14 (dv/dR), sigb0r (error in dv/dR), b0dt91 (slope parameter), sigb0dt (error in slope parameter)
 
 
@@ -66,7 +66,9 @@ HF04: Holmberg J., Flynn C., 2004, MNRAS, 352, 440.
 
 ====
 
-Description of different codes:
+Description of different files and codes:
+
+parameters.in: contains values of Vs, sigVs (error in Vs), Rskpc (Rs in kpc units), sigRs (error in Rskpc), b0reid14 (dv/dR), sigb0r (error in dv/dR), b0dt91 (slope parameter), sigb0dt (error in slope parameter)
 
 parameters.py: contains parameters (constants) used in the package
 
